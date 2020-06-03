@@ -1,0 +1,102 @@
+body {
+  font-family: "Work Sans", sans-serif;
+  font-size: 32px;
+  line-height: 1.5;
+  background-image: url(images/pattern-bg2.png);
+  background-position: center;
+  height: 100vh;
+  color: rgba(0,0,0,0.7);
+  margin: 0;
+}
+
+* {box-sizing: border-box;}
+
+img {
+  width: 100%;
+}
+
+.slideshow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  overflow: hidden;
+  margin: 0 auto;
+  width: 960px;
+  height: 550px;
+}
+
+.holder {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 10000vw;
+  height: 100vh;
+  transition: left 1s;
+}
+
+.holder div {
+  float: left;
+  width: 960px;
+  height: 550px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 30px;
+}
+
+.slide-1 {background-image: url(images/portfolio-01.jpg);}
+.slide-2 {background-image: url(images/portfolio-02.jpg);}
+.slide-3 {background-image: url(images/portfolio-03.jpg);}
+.slide-4 {background-image: url(images/portfolio-04.jpg);}
+.slide-5 {background-image: url(images/portfolio-05.jpg);}
+.slide-6 {background-image: url(images/portfolio-06.jpg);}
+.slide-7 {background-image: url(images/portfolio-07.jpg);}
+.slide-8 {background-image: url(images/portfolio-08.jpg);}
+.slide-9 {background-image: url(images/portfolio-09.jpg);}
+.slide-10 {background-image: url(images/portfolio-10.jpg);}
+.slide-11 {background-image: url(images/portfolio-11.jpg);}
+.slide-12 {background-image: url(images/portfolio-12.jpg);}
+.slide-13 {background-image: url(images/portfolio-13.jpg);}
+.slide-14 {background-image: url(images/portfolio-14.jpg);}
+.slide-15 {background-image: url(images/portfolio-15.jpg);}
+.slide-16 {background-image: url(images/portfolio-16.jpg);}
+.slide-17 {background-image: url(images/portfolio-17.jpg);}
+.slide-18 {background-image: url(images/portfolio-18.jpg);}
+.slide-19 {background-image: url(images/portfolio-19.jpg);}
+.slide-20 {background-image: url(images/portfolio-20.jpg);}
+
+.steps {
+  position: absolute;
+  bottom: 140px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+a {
+  color: rgba(0,0,0,0.2);
+  padding: 20px 30px;
+  position: absolute;
+  bottom: 0;
+  text-decoration: none;
+  z-index: 1;
+}
+
+a:hover {
+  color: rgba(0,0,0,0.4);
+  transition: all 0.3s;
+}
+
+.prev {
+  top: 50%;
+  left: 0;
+  transform: translateY(-15%);
+}
+
+.next {
+  top: 50%;
+  right: 0;
+  transform: translateY(-15%);
+}
